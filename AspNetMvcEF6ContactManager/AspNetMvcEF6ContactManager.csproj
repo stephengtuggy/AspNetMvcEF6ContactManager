@@ -137,6 +137,10 @@
     <Compile Include="Migrations\201603140100011_Init.Designer.cs">
       <DependentUpon>201603140100011_Init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201603140157569_AddPhoneNumberEmailPostalAddress.cs" />
+    <Compile Include="Migrations\201603140157569_AddPhoneNumberEmailPostalAddress.Designer.cs">
+      <DependentUpon>201603140157569_AddPhoneNumberEmailPostalAddress.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Model1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -202,6 +206,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201603140100011_Init.resx">
       <DependentUpon>201603140100011_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201603140157569_AddPhoneNumberEmailPostalAddress.resx">
+      <DependentUpon>201603140157569_AddPhoneNumberEmailPostalAddress.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
