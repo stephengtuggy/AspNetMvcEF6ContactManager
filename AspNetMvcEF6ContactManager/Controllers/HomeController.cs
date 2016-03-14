@@ -15,14 +15,14 @@ namespace AspNetMvcEF6ContactManager.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Contact Manager application using ASP.NET MVC and Entity Framework 6";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact the Developer";
 
             return View();
         }
