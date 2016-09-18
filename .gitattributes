@@ -12,6 +12,7 @@
 # Note: This is only used by command line
 ###############################################################################
 #*.cs     diff=csharp
+#*.CS     diff=csharp
 
 ###############################################################################
 # Set the merge driver for project and solution files
@@ -24,17 +25,29 @@
 # intervention with every merge. To do so, just uncomment the entries below
 ###############################################################################
 *.sln       merge=binary
+*.SLN       merge=binary
 *.csproj    merge=binary
+*.CSPROJ    merge=binary
 *.vbproj    merge=binary
+*.VBPROJ    merge=binary
 *.vcxproj   merge=binary
+*.VCXPROJ   merge=binary
 *.vcproj    merge=binary
+*.VCPROJ    merge=binary
 *.dbproj    merge=binary
+*.DBPROJ    merge=binary
 *.fsproj    merge=binary
+*.FSPROJ    merge=binary
 *.lsproj    merge=binary
+*.LSPROJ    merge=binary
 *.wixproj   merge=binary
+*.WIXPROJ   merge=binary
 *.modelproj merge=binary
+*.MODELPROJ merge=binary
 *.sqlproj   merge=binary
+*.SQLPROJ   merge=binary
 *.wwaproj   merge=binary
+*.WWAPROJ   merge=binary
 
 ###############################################################################
 # behavior for image files
@@ -42,10 +55,11 @@
 # image files are treated as binary by default.
 ###############################################################################
 *.jpg   binary
+*.JPG   binary
 *.png   binary
+*.PNG   binary
 *.gif   binary
-
-*.ttf   binary
+*.GIF   binary
 
 ###############################################################################
 # diff behavior for common document formats
@@ -64,4 +78,14 @@
 *.PDF   diff=astextplain
 *.rtf   diff=astextplain
 *.RTF   diff=astextplain
+
+###############################################################################
+# Font files
+###############################################################################
+*.ttf   binary
+*.TTF   binary
+*.woff  binary
+*.WOFF  binary
+*.woff2 binary
+*.WOFF2 binary
 
