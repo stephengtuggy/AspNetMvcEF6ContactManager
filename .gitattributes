@@ -88,4 +88,5 @@
 *.WOFF  binary
 *.woff2 binary
 *.WOFF2 binary
+*.eot   binary
 
